@@ -1,0 +1,204 @@
+body{
+    
+    background-image: url(img/tic-tac-toe-game-linear-2806277a.jpg);
+}
+
+
+nav{
+    margin-left: 610px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+nav a{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: #000;
+    border:solid 1px black;
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 100px;
+    display:block;
+}
+nav li a:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url(img/tic-tac-toe-game-linear-2806277a.jpg);
+    margin:0px;
+    padding:0px;
+}
+
+.game td
+{
+    width:150px;
+    height:200px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.game
+{
+    background:rgb(225, 217, 217 , 0.5);
+    border:solid 10px #333;
+}
+
+.game .game-title
+{
+    background:#222;
+    color:#fff;
+    padding: 10px;
+    text-align:center;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 4px #00fa9a;
+}
+
+.tictactoe-board
+{
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    padding-top:20px;
+}
+
+.tictactoe-board table
+{
+    float:left;
+    width: 50%;
+}
+
+.tictactoe-board-score1
+{
+    float:left;
+    width:20%;
+}
+
+.tictactoe-board-score2
+{
+    float:left;
+    width:20%;
+}
+
+.clear
+{
+    clear:both;
+}
+.par{
+    background-color: rgba(155, 156, 214, 0.8);
+    width: 700px;
+    height: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+.hh{
+    background-color: blanchedalmond;
+    width: 690px;
+    height: 40px;
+    margin-left: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+#winnX{
+    width: 90px;
+    height: 50px;
+    background-color: azure;
+    color: rgb(52, 73, 92);
+    margin-left: 40px;
+    display: inline-block;
+
+}
+#winnO{
+    width: 90px;
+    height: 50px;
+    background-color: azure;
+    color: rgb(16, 29, 41); 
+    margin-left: 40px;
+    display: inline-block;
+
+    
+}
+
+.terug{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: #000;
+    border:solid 1px black;
+    text-decoration: none;
+    font-size: 35px;
+}
+#tab1{
+    width: 700px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+.tttr{
+
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}
+.tttd2a{
+    background-color: rgb(1, 82, 1);
+    border: 1px solid black;
+    text-align: left;
+    height: 55px;
+    vertical-align: top;
+    
+}
+.tttd2{
+
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    vertical-align: top;
+    background-color: rgb(163, 184, 48);
+}
+.tttd3{
+    border: 1px solid black;
+    width: 800px;
+    height: 30px;
+    background-color: rgb(163, 184, 48);
+}
+
+.container{
+    background-color: rgb(245, 232, 232 , 0.6);
+    margin-top: 50px;
+}
